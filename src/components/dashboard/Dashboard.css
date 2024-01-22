@@ -1,0 +1,120 @@
+.dashboard-container {
+    border: 2px solid var(--secondary-color);
+    border-radius: 4px;
+    height: 90vh;
+    width: 85vw;
+    font-size: 0.8em;
+}
+
+.historial-list > ul > li {
+    cursor: pointer;
+}
+
+.historial-list > ul > li:hover {
+    color: var(--accent)
+}
+
+.historial-list,
+.session-details {
+    border: 2px solid var(--secondary-color);
+    border-radius: 4px;
+    display: inline-block;
+    padding: 0 20px;
+    margin: 5px 5px 5px;
+    overflow: auto;
+}
+
+.historial-list {
+    width: 20%;
+}
+
+.session-details {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    height: 35%;
+}
+
+.historial {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 30%;
+}
+
+.calc-details {
+    width: 35%;
+    height: 30%;
+}
+
+.people-details {
+    width: 20%;
+    height: 30%;
+}
+
+.input-form,
+.calc-details,
+.people-details {
+    border: 2px solid var(--secondary-color);
+    border-radius: 4px;
+    margin: 5px;
+    height: 95%;
+    padding: 0 20px;
+}
+
+.input-icons {
+    color: var(--primary-color);
+    border: none;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: var(--secondary-shade-color);
+}
+
+.input-fields {
+    margin-bottom: 14.4px;
+}
+
+.consumption-input {
+    background-color: transparent;
+    border-radius: 0.2em;
+    border: 1px solid var(--secondary-color);
+    color: #ffebee;
+    padding-left: 10px;
+    width: 50px;
+    font-family: 'Space Mono', sans-serif;
+    margin-right: 10px;
+}
+
+.consumption-input::-webkit-inner-spin-button,
+.consumption-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.session-details-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.session-analysis {
+    border: 2px solid var(--secondary-color);
+    border-radius: 4px;
+    margin: 5px;
+    height: 65%;
+    padding: 20px;
+}
+
+.bar-graph-container {
+    width: 90%;
+    height: 80%;
+}

@@ -1,0 +1,55 @@
+/* Menu.css */
+
+.menu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .menu-toggle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+  }
+  
+  .drawer-content {
+    width: 25vw; /* Adjust the width as needed */
+    height: 100vh;
+    padding: 20px;
+    background-color: var(--primary-color); /* Background color of the drawer */
+  }
+  
+  .drawer-content a {
+    text-decoration: none;
+    color: var(--secondary-color); /* Link color */
+  }
+  
+  .drawer-content .MuiListItem-root:hover {
+    font-weight: bold; /* Highlight on hover */
+  }
+  
+  .drawer-content .MuiButton-root {
+    width: 100%;
+  }
+
+  .sign-out-text {
+    color: var(--secondary-shade-color);
+    font-size: 0.7em;
+  }
+
+  .MuiList-root {
+    width: 100%;
+  }
+
+  .MuiListItem-root {
+    width: 100%;
+  }
+  
+  /* Media query for mobile responsiveness */
+  @media (max-width: 768px) {
+    .drawer-content {
+      width: 50vw; /* Adjust the width for smaller screens */
+    }
+  }
+  

@@ -1,0 +1,54 @@
+.login-container,
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    color: var(--secondary-color)
+}
+
+.login-container > div > label,
+.register-container > div > label {
+    font-size: 0.9rem;
+}
+
+.sign-options {
+    width: 100%;
+}
+
+.sign-options > div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.sign-buttons {
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;
+    background: transparent;
+    font-family: "Space Mono";
+    color: var(--secondary-color)
+}
+
+.sign-buttons:hover {
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;
+    background: transparent;
+    font-family: "Space Mono";
+    color: var(--accent)
+}
+
+.register-button,
+.login-button {
+    border: solid 1px var(--secondary-color);
+    border-radius: 4px;
+    padding: 5px 20px;
+    margin-top: 20px;
+    background: transparent;
+    font-family: "Space Mono";
+    color: var(--secondary-color)
+}
