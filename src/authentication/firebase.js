@@ -3,7 +3,7 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_API_KEY,
+  apiKey: "AIzaSyCHSmM7RzaClRJXjwBj0ipLpyzkd8d3eH8",
   authDomain: "parrillometro.firebaseapp.com",
   projectId: "parrillometro",
   storageBucket: "parrillometro.appspot.com",
