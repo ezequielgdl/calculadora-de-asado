@@ -30,7 +30,7 @@ Estas credenciales te permitirán iniciar sesión como usuario de prueba y explo
 - **React Router DOM**: Enrutamiento declarativo para aplicaciones React.
 - **Date-fns**: Herramienta para manipular fechas en JavaScript en un navegador y Node.js.
 - **Framer Motion**: Animaciones de títulos.
-- **MaterialUI**: Iconos y implementación del Menu.
+- **MaterialUI**: Iconos e implementación del Menu.
 
 ## Futuras Implementaciones
 
